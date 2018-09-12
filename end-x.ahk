@@ -14,9 +14,9 @@ Return
 
 Label0: 
 { 
-    Send, {Space}{Space}
+    Send, {End}
+	Send, {x}
 	Send, {Down}
-	Send, {Left}{Left}
     Sleep, 100
 } 
 Return

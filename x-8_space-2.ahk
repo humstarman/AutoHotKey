@@ -2,7 +2,7 @@
 #NoEnv 
 
 v_Enable=0 
-$F12:: 
+$F11:: 
 { 
 v_Enable:=!v_Enable 
 If (v_Enable=0) 
@@ -14,7 +14,10 @@ Return
 
 Label0: 
 { 
-    Send, {Space}{Space}
+    Send, {x}{x}{x}{x}{x}{x}{x}{x}{x}
+	Send, {i}
+	Send, {Space}{Space}
+	Send, {Esc}
 	Send, {Down}
 	Send, {Left}{Left}
     Sleep, 100
